@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!-- <meta http-equiv='cache-control' content='no-cache'> 
+        <meta http-equiv='expires' content='0'> 
+        <meta http-equiv='pragma' content='no-cache'> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Login Form">
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src=""></script>
+        <link rel="icon" href="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Login Form Using HTML, CSS and Javascript</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <form action="main.js" autocomplete="on">
+                    <h2>Sign In</h2>
+                    <label for="username">Username:</label><br><br>
+                    <input type="text" placeholder="Enter your username" id="username" required><br><br>
+                    <label for="password">Password</label><br><br>
+                    <input type="password" placeholder="Enter your password" id="password" required><br><br>
+                    <button type="submit" onclick="login()">Sign In</button>        
+            </form>
+        </div>
+        <div class="column">
+            <form action="main.js" autocomplete="on">
+                <h2>Sign Up</h2>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" placeholder="First name" name="fname" required><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" placeholder="Last name" name="lname" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email address" name="email" required><br><br>
+                <label for="Rusername">Username:</label>
+                <input type="username" id="Rusername" placeholder="Username" name="username" required><br><br>
+                <label for="Rpassword">Password:</label>
+                <input type="password" id="Rpassword" placeholder="Password" name="password" required><br><br>
+                <label for="cPassword">Confirm password</label>
+                <input type="password" id="cPassword" placeholder="Confirm password" name="cPassword" required><br><br>
+                <button type="submit" onclick="register()">Sign Up</button>
+              </form>
+        </div>
+    </div>
+    </body>
+</html>
