@@ -12,8 +12,10 @@ body
 }
 .container /*About styling*/
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(120, 115, 115);
+    color: black;
     width: 80%;
+    height: fit-content;
     max-width: 960px;
     margin: 20px auto;
     border-radius: 6px;
@@ -39,4 +41,9 @@ input[type="text"],input[type="password"],input[type="email"],input[type="userna
 {
     height: 30px;
     text-align: left;
+}
+button[type="submit"]
+{
+    padding: 10px;
+    text-align: center;
 }
