@@ -28,6 +28,13 @@ body
     padding: 15px;
     text-align: left;
 }
+@media screen and (max-width:400px) /*Responsive view for about columns */
+{
+    .column 
+    {
+      width: 100%;
+    }
+}
 input[type="text"],input[type="password"],input[type="email"],input[type="username"]
 {
     height: 30px;
