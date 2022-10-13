@@ -7,7 +7,6 @@ body
     background-image: url("./backgound.jpg");
     background-size: 100%;
     font-family: sans-serif;
-    color: #444;
     letter-spacing: 1px;
 }
 .container /*About styling*/
@@ -18,7 +17,6 @@ body
     height: fit-content;
     max-width: 960px;
     margin: 20px auto;
-    border-radius: 6px;
     box-sizing: border-box;
     padding: 0 0 20px;
     overflow: hidden;
@@ -39,8 +37,9 @@ body
 }
 input[type="text"],input[type="password"],input[type="email"],input[type="username"]
 {
-    height: 30px;
+    height: 40px;
     text-align: left;
+    border-radius: 15px;
 }
 button[type="submit"]
 {
