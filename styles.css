@@ -37,7 +37,8 @@ body
 }
 input[type="text"],input[type="password"],input[type="email"],input[type="username"]
 {
-    height: 40px;
+    height: 50px;
+    width: 200px;
     text-align: left;
     border-radius: 15px;
 }
@@ -55,9 +56,9 @@ td
     text-align: left;
     padding: 5px;
 }
-@media (max-width: 570px) 
+@media screen and (max-width: 767px) /*Responsive grid for smartphones*/
 {
-    table 
+    table
     {
         width: 100%;
         border-collapse: collapse;
@@ -67,4 +68,63 @@ td
         display: block;
         padding: 3px;
     }
+}
+@media (min-width: 767px) and (max-width:1023px)/*Responsive grid for tablets*/
+{
+    table
+    { 
+        width: 100%;
+    }
+    td 
+    {
+        display: block;
+        padding: 3px;
+    }
+}
+@media (min-width: 1024px)/*Responsive grid for desktops*/
+{
+    table
+    { 
+        width: 100%;
+    }
+}
+#message, #message1 
+{
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+#message p , #message1 p
+{
+    padding: 10px 35px;
+    font-size: 10px;
+}
+  
+/* Add a green text color and a checkmark when the requirements are right */
+.valid 
+{
+    color: green;
+}
+  
+.valid:before 
+{
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+.invalid 
+{
+    color: red;
+}
+.invalid:before 
+{
+    position: relative;
+    left: -35px;
+    content: "✖";
 }
