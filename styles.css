@@ -46,3 +46,25 @@ button[type="submit"]
     padding: 10px;
     text-align: center;
 }
+table
+{
+    width: 100%;
+}
+td
+{
+    text-align: left;
+    padding: 5px;
+}
+@media (max-width: 570px) 
+{
+    table 
+    {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td 
+    {
+        display: block;
+        padding: 3px;
+    }
+}
