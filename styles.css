@@ -21,16 +21,16 @@ body
     padding: 0 0 20px;
     overflow: hidden;
 }
-.column
+/* form
 {
     float: left;
     width: 50%;
     padding: 15px;
-    text-align: left;
-}
+    text-align: center;
+} */
 @media screen and (max-width:400px) /*Responsive view for the forms */
 {
-    .column 
+    form 
     {
       width: 100%;
     }
@@ -88,7 +88,7 @@ td
         width: 100%;
     }
 }
-#message, #message1 
+#message, #message1
 {
     display:none;
     background: #f1f1f1;
@@ -97,8 +97,9 @@ td
     height: auto;
     padding: 20px;
     margin-top: 10px;
+    width: 100%;
 }
-#message p , #message1 p
+#message p, #message1 p
 {
     padding: 10px 35px;
     font-size: 10px;
