@@ -53,12 +53,12 @@
                     <tr>
                         <td>
                             <label for="Rpassword">Password:</label><br>
-                            <input type="password" id="Rpassword" placeholder="Password" name="password" required><br><br>
+                            <input type="password" id="Rpassword" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
                             <input type="checkbox" onchange="document.getElementById('Rpassword').type = this.checked ? 'text' : 'password'">Show password<br><br>
                         </td>
                         <td>
                             <label for="cPassword">Confirm password</label><br>
-                            <input type="password" id="cPassword" placeholder="Confirm password" name="cPassword" required><br><br>
+                            <input type="password" id="cPassword" placeholder="Confirm password" name="cPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
                             <input type="checkbox" onchange="document.getElementById('cPassword').type = this.checked ? 'text' : 'password'">Show password<br><br>
                         </td>
                     </tr>
