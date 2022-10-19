@@ -13,7 +13,7 @@ body
 {
     background-color: rgb(120, 115, 115);
     color: black;
-    width: 80%;
+    width: fit-content;
     height: fit-content;
     max-width: 960px;
     margin: 20px auto;
@@ -21,13 +21,6 @@ body
     padding: 0 0 20px;
     overflow: hidden;
 }
-/* form
-{
-    float: left;
-    width: 50%;
-    padding: 15px;
-    text-align: center;
-} */
 @media screen and (max-width:400px) /*Responsive view for the forms */
 {
     form 
@@ -90,14 +83,14 @@ td
 }
 #message, #message1
 {
-    display:none;
+    /* display:none; */
     background: #f1f1f1;
     color: #000;
     position: relative;
     height: auto;
     padding: 20px;
     margin-top: 10px;
-    width: 100%;
+    width: fit-content;
 }
 #message p, #message1 p
 {

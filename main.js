@@ -22,17 +22,17 @@ var upperCaseLetters = /[A-Z]/g;
 var numbers = /[0-9]/g;
 var specialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
 
-// When the user clicks on the 1st password field, show the message box
-input.onfocus = () =>
-{
-  document.getElementById("message").style.display = "block";
-}
+// // When the user clicks on the 1st password field, show the message box
+// input.onfocus = () =>
+// {
+//   document.getElementById("message").style.display = "block";
+// }
 
-// When the user clicks outside of the password field, hide the message box
-input.onblur = () =>
-{
-  document.getElementById("message").style.display = "none";
-}
+// // When the user clicks outside of the password field, hide the message box
+// input.onblur = () =>
+// {
+//   document.getElementById("message").style.display = "none";
+// }
 
 // When the user starts to type something inside the 1st password field
 input.onkeyup = () =>
